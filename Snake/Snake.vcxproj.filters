@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{00ee6920-562b-4354-9526-87ff4a20bd01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{b2355735-9bea-4979-add8-045a3179a132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strategies">
+      <UniqueIdentifier>{5eb8a4ad-f1d8-43de-85b0-a80ed0903f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strategies\Interfaces">
+      <UniqueIdentifier>{ca42932f-5ca5-4441-a5a8-ff5f9faf1ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strategies\Implementations">
+      <UniqueIdentifier>{08737662-46d7-4667-9c4a-b58a8bbbc1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Strategies">
+      <UniqueIdentifier>{28aaad80-0b41-43fe-a819-c7782a9c0ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Strategies\Interfaces">
+      <UniqueIdentifier>{ac69f6c0-5ec0-4c82-8560-70e13e1803bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Strategies\Implementations">
+      <UniqueIdentifier>{20e94b08-521b-4ddb-88c9-50bc9468db0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Singletons">
+      <UniqueIdentifier>{340d6b88-fa5b-450b-a957-ce54ae42da18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Singletons">
+      <UniqueIdentifier>{4fecd38b-96fd-452e-b1bf-23cff9c45d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{f5ceaf96-0e34-4a51-aea9-86a61aa43aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{aab3563c-15f7-4e6f-a0fe-051016854d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{6bca7441-6864-471a-9400-90870444ba6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{40360bee-716d-4ac0-8d75-9ca93ad1f241}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileRenderStrategy.cpp">
+      <Filter>Source Files\Strategies\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRenderStrategy.cpp">
+      <Filter>Source Files\Strategies\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGenerator.cpp">
+      <Filter>Source Files\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleTile.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeTile.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRenderStrategy.h">
+      <Filter>Header Files\Strategies\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="TileRenderStrategy.h">
+      <Filter>Header Files\Strategies\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGenerator.h">
+      <Filter>Header Files\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleTile.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeTile.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
